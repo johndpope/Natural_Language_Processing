@@ -1,5 +1,7 @@
-# Natural_Language_Processing
-NLP projects </br>
+# Sentiment Analysis
+Data: IMDB movie reviews [provided by Kaggle] </br>
+Including 25,000 labeled review, 50,000 unlabeled review, 25,000 test set.
+</br>
 </br>
 1. Bag of Words model [tf-idf feature] </br>
     Random Forest, accuracy: 0.94609 </br>
