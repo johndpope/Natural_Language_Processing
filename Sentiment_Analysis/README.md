@@ -9,5 +9,10 @@ NLP projects </br>
     Random Forest, accuracy: 0.93 </br>
     After calculate the word embedding matrix, can go further by using K-Means so as to divide words into different categories (e.g. animal, divide, weather, etc). Represent each review with combination of categories, then train ML model.
     </br>
+    ![](word2vec_diagrams.png)
     </br>
-3. Word2Doc model
+    </br>
+3. Doc2Vec model [500features_1minwords_10context] </br>
+    Logistic Regression, accuracy: 0.93169 </br>
+    Comparing with Word2Vec, the only differences is adding different specific document label to sentences in different reviews.</br>
+    ![](doc2vec_diagrams.jpg)
