@@ -6,13 +6,13 @@ Example: </br>
 2 Sandra travelled to the hallway.</br>
 3 Where is Sandra? 	hallway	2</br>
 </br>
-load_data.py	-> Data preprocessing: Remove punctuation, extract story, question, answer part respectively.  Convert data into number-representation vector.
+<b>load_data.py</b>	-> Data preprocessing: Remove punctuation, extract story, question, answer part respectively.  Convert data into number-representation vector.
 </br>
-memn2n.py	-> End-to-End Memory Network Model.</br>
+<b>memn2n.py</b>	-> End-to-End Memory Network Model.</br>
 Position Encoding: Try to capture the word order information in a sentence.</br>
 Temporal Encoding: Many of the QA tasks require some notion of temporal context, e.g. the model needs to understand that Sam is in the bedroom after he is in the kitchen.
 </br>
-result.ipynb	-> Train model, get classification accuracy about training data, validation data and test data.
+<b>result.ipynb</b>	-> Train model, get classification accuracy about training data, validation data and test data.
 </br>
 ![](mem.png)
 </br>
