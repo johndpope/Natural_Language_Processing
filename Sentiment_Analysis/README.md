@@ -16,5 +16,6 @@ Including 25,000 labeled review, 50,000 unlabeled review, 25,000 test set.
     </br>
 3. <b>Doc2Vec model</b> [500features_1minwords_10context] </br>
     Logistic Regression, accuracy: 0.93169 </br>
-    Comparing with Word2Vec, the only differences is adding different specific document label to sentences in different reviews.</br>
+    Comparing with Word2Vec, the only differences is adding different specific document label to sentences in different reviews. Every paragraph is mapped to a unique vector, this paragraph token keeps the topic of the paragraph. At prediction, perform an inference step to compute the paragraph vector as the final feature. 
+    
     ![](doc2vec_diagrams.jpg)
