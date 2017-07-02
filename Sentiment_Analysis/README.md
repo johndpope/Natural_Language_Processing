@@ -3,7 +3,7 @@ Data: IMDB movie reviews [provided by Kaggle] </br>
 Including 25,000 labeled review, 50,000 unlabeled review, 25,000 test set.
 </br>
 </br>
-1. <b>Bag of Words model</b> [tf-idf feature] </br>
+1. <b>tf-idf feature model</b> [bag of words] </br>
     Random Forest, accuracy: 0.94609 </br>
     Naive Bayes + SGDClassifer, accuracy: 0.967 </br>
     </br>
